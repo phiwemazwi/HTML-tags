@@ -2,9 +2,76 @@
 <html lang="en">
     <head>
         <title>index</title>
+        <style>
+            img{
+                width: 1300px;
+                height: 200px;
+            }
+             .container{
+                 background-color: yellow;
+                 width: 100%;
+                 height: 200px;
+                 margin: 30px;
+             }
+             .box{
+                 background-color: red;
+                 height: 150px;
+                 width: 25%;
+                 margin: 20px;
+                 display: inline-block;
+                 padding-left: 50px;
+             }
+             table {
+                 border: 2px solid black;
+                 border-collapse: collapse;
+                 margin-top: 40px;
+             }
+             td, th{
+                 border: solid 2px black;
+             }
+             button{
+                 width: 100px;
+                 height: 50px;
+                 background-color: cyan;
+                 font-size: 13px;
+                 margin-left: 50%;
+
+             }
+             button:hover{
+                 background-color: blue;
+             }
+        </style>
 
     </head>
     <body>
-        Hello World!
+        <img src="pic1.jpg">
+
+        <div class="container">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>London Session</th>
+                            <th>Tokyo Session</th>
+                            <th>NewYork Session</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        <td>13:00 to 22:00</td>
+                        <td>08:00 to 17:00</td>
+                        <td>00:00 to 21:00</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+            </div>
+        </div>
+        <a href=""><button>Next</button></a>
+
+        
     </body>
 </html>
