@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>PageTwo</title>
+    </head>
+    <style>
+        .container{
+            background-color: yellow;           
+        }
+        .block{
+            width: 20%;
+            height: 150px;
+            background-color: violet;
+            display:  inline-table;
+            padding: 15px;
+            margin-left: 80px;
+            align-items: baseline;
+        }
+        button{
+            background-color: rgb(143, 80, 143);
+            width: 13%;
+            height: 50px;
+            margin-left: 50%;
+        }
+        button:hover{
+            background-color: tomato;
+        }
+        table, th,tr,td{
+            border: 2px solid rgb(205, 120, 50);
+            border-collapse: collapse;
+        }
+        img{
+            margin-top: 10%;
+        }
+    </style>
+    <body>
+        <a href="index.html"><button>Previous</button></a>
+        
+
+        <div class="container">
+            
+            <div class="block">
+                <input type="radio" value="Colors">Sky Blue
+                <input type="radio" value="Colors">Red
+                <input type="radio" value="Colors">Orange
+            </div>
+            <div class="block">
+                <input name="names" list="Names" placeholder="country">
+                <datalist id="Names">
+                    <option value="Phiwe">
+                    <option value="John">
+                    <option value="James">
+                    <option value="Rapha">
+                </datalist>
+            </div>
+            <div class="block"> 
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Psychology</th>
+                            <th>Mindest</th>
+                            <th>Attitude</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Win some Lose some</td>
+                            <td>Stick to strategy</td>
+                            <td>Be teachable</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+        </div>
+        <footer>
+            <img src="pic1.jpg" width="1300px" height="200px">
+        </footer>
+    </body>
+</html>
